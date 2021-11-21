@@ -1,0 +1,30 @@
+#details {
+    overflow: hidden;
+    .details_content {
+        position: relative;
+    }
+    a {
+        text-decoration: none;
+    }
+    .status {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+    }
+    .a {
+        background-color: #ffff00d0;
+        color: #111;
+    }
+    .b {
+        background-color: #111827;
+        color: #fff;
+    }
+}
+
+@media (max-width: 575px) {
+    #details {
+        img {
+            height: 300px;
+        }
+    }
+}

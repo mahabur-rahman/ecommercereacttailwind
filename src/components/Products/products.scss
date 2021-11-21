@@ -1,0 +1,27 @@
+#products {
+    position: relative;
+    .status {
+        position: absolute;
+        top: 10%;
+        right: 0;
+    }
+    .product_div {
+        padding: 1rem 0.8rem;
+        position: relative;
+        .status {
+            position: absolute;
+            top: 5%;
+            right: 8%;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+    }
+    .a {
+        background-color: yellow;
+        color: #111;
+    }
+    .b {
+        background-color: #111827;
+        color: #fff;
+    }
+}

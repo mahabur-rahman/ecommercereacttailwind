@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./style.scss";
+
+// components
+import Navbar from "./components/Navbar/Navbar";
+import Products from "./components/Products/Products";
+import Details from "./components/Details/Details";
+import Cart from "./components/Cart/Cart";
+import Error from "./components/Error/Error";
+import Footer from "./components/Footer/Footer";
+// react router
+import { Route, Switch } from "react-router-dom";
+
+// context
+import ProductContextProvider from "./context/ProductContext";
+import CartContextProvider from "./context/CartContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ProductContextProvider>
+        <CartContextProvider>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={Products} />
+            <Route exact path="/details/:id" component={Details} />
+            <Route exact path="/cart" component={Cart} />
+            <Route component={Error} />
+          </Switch>
+          <Footer />
+        </CartContextProvider>
+      </ProductContextProvider>
+    </>
   );
 }
 
