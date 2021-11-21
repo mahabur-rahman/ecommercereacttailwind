@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ecommercereacttailwind/static/css/main.ba7b10ff.chunk.css",
+    "main.js": "/ecommercereacttailwind/static/js/main.21371453.chunk.js",
+    "main.js.map": "/ecommercereacttailwind/static/js/main.21371453.chunk.js.map",
+    "runtime-main.js": "/ecommercereacttailwind/static/js/runtime-main.2006988c.js",
+    "runtime-main.js.map": "/ecommercereacttailwind/static/js/runtime-main.2006988c.js.map",
+    "static/css/2.70447b25.chunk.css": "/ecommercereacttailwind/static/css/2.70447b25.chunk.css",
+    "static/js/2.6bba4b7c.chunk.js": "/ecommercereacttailwind/static/js/2.6bba4b7c.chunk.js",
+    "static/js/2.6bba4b7c.chunk.js.map": "/ecommercereacttailwind/static/js/2.6bba4b7c.chunk.js.map",
+    "index.html": "/ecommercereacttailwind/index.html",
+    "static/css/2.70447b25.chunk.css.map": "/ecommercereacttailwind/static/css/2.70447b25.chunk.css.map",
+    "static/css/main.ba7b10ff.chunk.css.map": "/ecommercereacttailwind/static/css/main.ba7b10ff.chunk.css.map",
+    "static/js/2.6bba4b7c.chunk.js.LICENSE.txt": "/ecommercereacttailwind/static/js/2.6bba4b7c.chunk.js.LICENSE.txt",
+    "static/media/Banner.scss": "/ecommercereacttailwind/static/media/banner.0feeaa49.jpg",
+    "static/media/p1.e85c9e92.jpg": "/ecommercereacttailwind/static/media/p1.e85c9e92.jpg",
+    "static/media/p10.5d033087.jpg": "/ecommercereacttailwind/static/media/p10.5d033087.jpg",
+    "static/media/p2.3c22a25f.jpg": "/ecommercereacttailwind/static/media/p2.3c22a25f.jpg",
+    "static/media/p3.d7eea7a9.jpg": "/ecommercereacttailwind/static/media/p3.d7eea7a9.jpg",
+    "static/media/p4.861f3f37.jpg": "/ecommercereacttailwind/static/media/p4.861f3f37.jpg",
+    "static/media/p5.9ad5b81e.jpg": "/ecommercereacttailwind/static/media/p5.9ad5b81e.jpg",
+    "static/media/p6.fcfdebf1.jpg": "/ecommercereacttailwind/static/media/p6.fcfdebf1.jpg",
+    "static/media/p7.45d85c9c.jpg": "/ecommercereacttailwind/static/media/p7.45d85c9c.jpg",
+    "static/media/p8.5e861eda.jpg": "/ecommercereacttailwind/static/media/p8.5e861eda.jpg",
+    "static/media/p9.f940f110.jpg": "/ecommercereacttailwind/static/media/p9.f940f110.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2006988c.js",
+    "static/css/2.70447b25.chunk.css",
+    "static/js/2.6bba4b7c.chunk.js",
+    "static/css/main.ba7b10ff.chunk.css",
+    "static/js/main.21371453.chunk.js"
+  ]
+}
